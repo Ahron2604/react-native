@@ -15,11 +15,7 @@ import StatusBarComp from './src/statusbar';
 import SwitchComp from './src/switch';
 import TextComp from './src/text';
 import TextInputComp from './src/textinput';
-import TouchableHighlightComp from './src/touchablehighlight';
-import TouchableOpacityComp from './src/touchableopacity';
-import TouchableWithoutFeedbackComp from './src/touchablewithoutfeedback';
-import ViewComp from './src/view';
-import VirtualizedListComp from './src/virtualizedlist';
+
 
 export default function App() {
   return (
@@ -40,11 +36,7 @@ export default function App() {
       <SwitchComp />
       <TextComp />
       <TextInputComp />
-      <TouchableHighlightComp />
-      <TouchableOpacityComp />
-      <TouchableWithoutFeedbackComp />
-      <ViewComp />
-      <VirtualizedListComp />
+   
     </ScrollView>
   );
 }
